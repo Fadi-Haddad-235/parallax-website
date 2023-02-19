@@ -1,0 +1,20 @@
+
+.caption span {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+.parallax1 {
+  background-image: url(https://themes.muffingroup.com/be/farm2/wp-content/uploads/2020/12/farm2-slider-bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-wrap: nowrap;
+}
