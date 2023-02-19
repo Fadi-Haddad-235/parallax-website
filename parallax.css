@@ -34,7 +34,7 @@ body{
   font-family: Open Sans;
 }
 .part1{
-  background-image: url(parallax-website/images/firstimage.jpg);
+  background-image: url(images/firstimage.jpg);
   min-height: 700px;
   background-size: cover;
   position: relative;
@@ -45,7 +45,7 @@ body{
   padding-left: 20px;
 }
 .part2{
-  background-image: url(parallax-website/images/secondimage.jpg);
+  background-image: url(images/secondimage.jpg);
   height: 350px;
   width: 100%;
   position: relative;
@@ -59,7 +59,7 @@ body{
 }
 
 .part3{
-  background-image: url(parallax-website/images/thirdimage.jpg);
+  background-image: url(images/thirdimage.jpg);
   height: 350px;
   width: 100%;
   position: relative;
@@ -71,7 +71,7 @@ body{
   padding-top: 20px;
 }
 .part4{
-  background-image: url(parallax-website/images/eightimage.jpg);
+  background-image: url(images/eightimage.jpg);
   height: 350px;
   width: 100%;
   position: relative;
@@ -83,7 +83,7 @@ body{
   padding-left: 50px;
 }
 .part5{
-  background-image: url(parallax-website/images/fifthimage.jpg);
+  background-image: url(images/fifthimage.jpg);
   height: 350px;
   width: 100%;
   position: relative;
@@ -93,7 +93,7 @@ body{
   background-attachment: fixed;
 }
 .part6{
-  background-image: url(parallax-website/images/seventhimage.jpg);
+  background-image: url(images/seventhimage.jpg);
   height: 350px;
   width: 100%;
   position: relative;
