@@ -147,7 +147,7 @@ width: 100%;
   .buttom :hover {
     transform: scale(1.1);
 }
-@media only screen and (min-width:200px) and (max-width:767px) {
+@media (min-width:200px) and (max-width:767px) {
     .contain2{
         width: 100%;
         flex-direction: row;
