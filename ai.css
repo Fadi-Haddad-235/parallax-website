@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTa-j2U0lmluP9RWlSytm3ho.woff2) format('woff2');
+    font-family: "open sans 700";
+    color: white;
+
+}
+.all{
+    background-color: #123b4b;
+    font-size: 20px;
+}
+hr {
+  border-width: 2px;
+  border-color: aqua;
+}
+.qoute h1{
+
+    margin-left: 10px;
+    font-style: italic;
+    color: aqua;
+}
+
+
+.contain1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.parallax1{
+overflow-x: hidden;
+overflow-y: auto;
+height: 500px;
+width: 100%;
+
+}
+.image1{
+    background-image: url(self-driving.jpg);
+    background-position:right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:auto ;
+    height: 100%;margin-right: 20px;
+    
+}
+
+.content1 h2{
+    color: aqua;
+    padding-left: 20px;
+    padding-top: 80px;
+    text-decoration: underline;
+}
+.paragraph1{
+    line-height: 30px;
+    padding-left: 20px;
+    color: white;
+
+}
+.contain2{
+    display: flex;
+    justify-content: space-between;
+    
+  
+    
+}
+.parallax2{
+overflow-x: hidden;
+overflow-y: auto;
+height: 500px;
+
+width: 100%;
+}
+.image2{
+    background-image: url(artificial-intelligence-autonomous.jpg);
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:auto;
+    height: 100%;
+    margin-right: 20px;
+}
+.content2 h2{
+    color: aqua;
+    padding-left: 20px;
+    padding-top: 10px;
+    text-decoration: underline;
+} 
+.content2 ol{
+    line-height: 30px;
+    color: white;
+}
+.paragraph2{
+    line-height: 40px;
+    padding-left: 20px;
+    color:white;
+
+}
+.blockheader h2{
+    margin-left: 290px;
+    font-size: 40px;
+    color: aqua;
+}
+
+.all-blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.block{
+    
+    box-shadow: 5px 5px 20px white;/* shafafeya ta3olet loon shadow*/
+    border-radius: 15px;
+    margin: 50px;
+    padding: 25px;
+    transition: 0.6s ease;
+
+}
+.block :hover{
+    transform: scale(1.1);
+    color: red;
+}
+.logo{
+    text-align: center;
+    font-size: 7em;
+    margin-left: 10px;
+
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+    color: aqua;
+}
+.home a{
+    margin-left: 750px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 10px;
+    background-color: aqua;
+    border-radius: 10px; 
+}
+  .buttom :hover {
+    transform: scale(1.1);
+}
+@media only screen and (min-width:200px) and (max-width:767px) {
+    .contain2{
+        width: 100%;
+        flex-direction: row;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1280px) {
+    .contain1{
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
