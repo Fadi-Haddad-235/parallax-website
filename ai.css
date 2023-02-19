@@ -13,7 +13,6 @@ hr {
   border-color: aqua;
 }
 .qoute h1{
-
     margin-left: 10px;
     font-style: italic;
     color: aqua;
@@ -23,15 +22,12 @@ hr {
 .contain1{
     display: flex;
     justify-content: space-between;
-
-    
 }
 .parallax1{
 overflow-x: hidden;
 overflow-y: auto;/*to fit while scrolling in the y-direction*/
 height: 500px;
 width: 100%;
-
 }
 .image1{
     background-image: url("images/self-driving.jpg");
@@ -40,10 +36,8 @@ width: 100%;
     background-repeat: no-repeat;
     background-size:auto ;
     height: 100%;
-    margin-right: 20px;
-    
+    margin-right: 20px;   
 }
-
 .content1 h2{
     color: aqua;
     padding-left: 20px;
@@ -54,7 +48,6 @@ width: 100%;
     line-height: 30px;
     padding-left: 20px;
     color: white;
-
 }
 .contain2{
     display: flex;
@@ -89,30 +82,24 @@ width: 100%;
     line-height: 40px;
     padding-left: 20px;
     color:white;
-
 }
 .blockheader h2{
     margin-left: 290px;
     font-size: 40px;
     color: aqua;
 }
-
 .all-blocks{
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-direction: row;/*to set the blocks in rows not columns*/
-    
-
 }
 .block{
-    
     box-shadow: 5px 5px 20px white;
     border-radius: 15px;
     margin: 50px;
     padding: 25px;
     transition: 0.6s ease;
-
 }
 .block :hover{
     transform: scale(1.1);
@@ -122,7 +109,6 @@ width: 100%;
     text-align: center;
     font-size: 7em;
     margin-left: 10px;
-
 }
 .info{
     text-align: center;
@@ -148,13 +134,13 @@ width: 100%;
 @media (min-width:200px) and (max-width:767px) {
     .contain2{
         width: 100%;
-        flex-direction: row;
+        flex-direction: column;
     }
 }
 @media only screen and (min-width:768px) and (max-width:1280px) {
     .contain1{
         width: 100%;
-        flex-direction: column;
+        flex-direction: row;
     }
 }
 
