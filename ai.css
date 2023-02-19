@@ -34,7 +34,7 @@ width: 100%;
 
 }
 .image1{
-    background-image: url(self-driving.jpg);
+    background-image: url("images/self-driving.jpg");
     background-position:right;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@ height: 500px;
 width: 100%;
 }
 .image2{
-    background-image: url(artificial-intelligence-autonomous.jpg);
+    background-image: url("images/artificial-intelligence-autonomous.jpg");
     background-position: right;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@ width: 100%;
 }
 .block{
     
-    box-shadow: 5px 5px 20px white;/* shafafeya ta3olet loon shadow*/
+    box-shadow: 5px 5px 20px white;
     border-radius: 15px;
     margin: 50px;
     padding: 25px;
