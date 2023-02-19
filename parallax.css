@@ -31,7 +31,7 @@ body{
   font-weight: bold;
   line-height: 1.8em;
   color: #012840;
-  font-family: Open Sans;
+  font-family: 'Open Sans';
 }
 .part1{
   background-image: url(images/firstimage.jpg);

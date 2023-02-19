@@ -1,7 +1,6 @@
 *{
     margin: 0;
-    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTa-j2U0lmluP9RWlSytm3ho.woff2) format('woff2');
-    font-family: "open sans 700";
+    font-family: 'Open Sans';
     color: white;
 
 }
