@@ -19,26 +19,28 @@ hr {
     color: aqua;
 }
 
-
+/*to carry the picture beside the paragraphs*/
 .contain1{
     display: flex;
     justify-content: space-between;
+
     
 }
 .parallax1{
 overflow-x: hidden;
-overflow-y: auto;
+overflow-y: auto;/*to fit while scrolling in the y-direction*/
 height: 500px;
 width: 100%;
 
 }
 .image1{
     background-image: url("images/self-driving.jpg");
-    background-position:right;
-    background-attachment: fixed;
+    background-position:right; /*set the image to the right*/
+    background-attachment: fixed;/*the defualt value is scroll and i want the image to be fixed while getting down*/
     background-repeat: no-repeat;
     background-size:auto ;
-    height: 100%;margin-right: 20px;
+    height: 100%;
+    margin-right: 20px;
     
 }
 
