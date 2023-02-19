@@ -102,7 +102,7 @@ width: 100%;
     flex-direction: row;
     justify-content: center;
     flex-direction: row;/*to set the blocks in rows not columns*/
-    flex-wrap: wrap;
+    
 
 }
 .block{
