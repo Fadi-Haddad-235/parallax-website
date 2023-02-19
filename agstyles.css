@@ -6,15 +6,40 @@
   font-size: 25px;
   letter-spacing: 10px;
 }
-.parallax1 {
-  background-image: url(https://themes.muffingroup.com/be/farm2/wp-content/uploads/2020/12/farm2-slider-bg.jpg);
+p{
+  text-indent: 60px;
+}
+.parallax{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.parallax1 {
+  background-image: url(https://themes.muffingroup.com/be/farm2/wp-content/uploads/2020/12/farm2-slider-bg.jpg);
   min-height: 120vh;
   display: flex;
   justify-content: center;
   align-items:center;
   flex-wrap: nowrap;
+}
+.text1{
+  color: #777;
+  background-color:white;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+  text-indent: 30px;
+}
+.parallax2 {
+  background-image: url(https://www.pbs.org/wgbh/nova/media/images/shutterstock_1155509476.width-2000.jpg);
+  min-height: 400px;
+}
+.text2{
+  position:relative; 
+  color:#ddd;
+  background-color:#282E34;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
 }
