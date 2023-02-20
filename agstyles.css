@@ -3,9 +3,8 @@ body,html {
   margin: 0;
   font-family: sans-serif;
   font-weight: 100;
-  font-size: 18px;
   line-height: 28px;
-  color: #777;
+  font-size: 18px;
 }
 .caption span {
   background-color: #111;
@@ -24,7 +23,6 @@ h3 {
 }
 p{
   text-indent: 60px;
-  font-size: 30px;
   line-height: 30px;
 }
 .parallax{
@@ -45,7 +43,6 @@ p{
 .text1{
   color: #777;
   background-color:rgb(224, 224, 224);
-  text-align:center;
   padding:50px 80px;
   text-align: justify;
   text-indent: 30px;
@@ -58,7 +55,6 @@ p{
   position:relative; 
   color:#ddd;
   background-color:#282E34;
-  text-align:center;
   padding:50px 80px;
   text-align: justify;
 }
@@ -69,6 +65,16 @@ p{
 .parallax4 {
   background-image: url(https://static01.nyt.com/images/2019/11/08/science/00TB-FARMBOTS1/00TB-FARMBOTS1-superJumbo.jpg);
   min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  background-color: rgb(121, 28, 28);
+  color: white;
+  padding: 20px;
+  font-size: large;
+  border-radius: 20px;
 }
 @media only screen and (max-device-width: 1024px) {
   .parallax{
