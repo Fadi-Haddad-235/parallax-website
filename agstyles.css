@@ -1,4 +1,12 @@
-
+body,html {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 28px;
+  color: #777;
+}
 .caption span {
   background-color: #111;
   color: #fff;
@@ -14,6 +22,7 @@ p{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.8;
 }
 .parallax1 {
   background-image: url(https://themes.muffingroup.com/be/farm2/wp-content/uploads/2020/12/farm2-slider-bg.jpg);
