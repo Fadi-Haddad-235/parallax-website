@@ -1,0 +1,172 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    padding: 0 0 0 150px;
+    box-sizing: border-box;
+    transition: .5s;
+    background: rgba(0,0,0,1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a.logo {
+    line-height: 60px;
+    color: #ea1538;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul li {
+    list-style: none;
+    line-height: 60px;
+    text-align: center;
+}
+
+.navbar ul li a{
+    display: block;
+    padding: 0 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ea1538;
+}
+
+.navbar ul li a:hover{
+    color: #fff;
+    background: #fd2928;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+section.section1{
+    background: url("images/processing20210816-406-1dkxltp.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.card{
+    padding: 80px;
+    height: auto;
+}
+section.card h1,h2{
+    margin:0;
+    font-size: 70px;
+    color:#262626;
+    text-align: center;
+}
+section.card h2{
+    font-size: 50px;
+
+}
+
+section.card p{
+    font-size: 25px;
+    padding: 10px 50px 10px 50px;
+}
+section.section3{
+    background: url("images/ChatGPT_NEW_LEAD.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    }
+section.card button{
+    border:none;
+    background: #ea1538;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: .4s;
+    padding: 12px 15px;
+    border-radius: 30px;
+}
+.more-button{
+    display: flex;
+    float: right;
+    padding-right: 50px;
+}
+.more-button a{
+    text-decoration: none; color: black;
+}
+section.section4{
+    background: url("images/Théâtre\ D’opéra\ Spatial.png");
+    background-size: cover;
+    background-attachment: fixed;
+    }
+section.section5{
+    background: url("images/Turtlery-II.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    
+section.section6{
+    background: url("images/KAKD_2x.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.section7{
+    padding-left: 12%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(#01284099,#02537399),url(images/background.jpg);
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content:space-around;
+    padding-top: 2%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+
+    background-image: linear-gradient(#01284099,#02537399),url(images/background.jpg);
+
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer li{
+    line-height: 3em;
+    
+}
+.footer-right, .footer-middle{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer h2{
+    color: aliceblue;
+    font-size: 25px;
+}
+.footer .footer-left .logo{
+    margin-top: 25px;
+    color: #801fff;
+}
+
+
+
