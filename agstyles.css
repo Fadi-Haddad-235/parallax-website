@@ -25,6 +25,7 @@ h3 {
 p{
   text-indent: 60px;
   font-size: 30px;
+  line-height: 30px;
 }
 .parallax{
   background-attachment: fixed;
@@ -64,4 +65,13 @@ p{
 .parallax3 {
   background-image: url(https://thinkml.ai/content/images/size/w2000/2020/10/Drone_Agriculture.jpg);
   min-height: 400px;
+}
+.parallax4 {
+  background-image: url(https://static01.nyt.com/images/2019/11/08/science/00TB-FARMBOTS1/00TB-FARMBOTS1-superJumbo.jpg);
+  min-height: 100%;
+}
+@media only screen and (max-device-width: 1024px) {
+  .parallax{
+    background-attachment: scroll; /*turning off parallax effect for screens with small widths*/
+  }
 }
