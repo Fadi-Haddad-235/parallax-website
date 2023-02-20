@@ -1,6 +1,6 @@
 ## What is this website ?
 this website is a group project that focuses on showcasing the parallax effect on webpages.<br>
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Parallax_scroll.gif">
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Parallax_scroll.gif"><br>
 the main theme of the website is the applicatios of Neural Networks in our everyday life.<br>
 such as the text generating model (ChatGPT), Image Generating Models (text-to-image)<br>
 or even the more industrial uses such as self driving cars and smart Robots<br>
