@@ -113,7 +113,7 @@ section.section4{
     background-attachment: fixed;
     }
 section.section5{
-    background: url("images/Turtlery-II.jpg");
+    background: url("images/black-horse.jpg");
     background-size: cover;
     background-attachment: fixed;
     }
@@ -169,4 +169,6 @@ section.section7{
 }
 
 
-
+.section4-text span{
+    color: #fd2928;
+}
