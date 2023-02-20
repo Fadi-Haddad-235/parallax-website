@@ -84,8 +84,7 @@ li {
 .topic1,
 .topic2,
 .topic3,
-.topic4,
-.topic5 {
+.topic4 {
   height: 350px;
   width: 100%;
   position: relative;
@@ -101,28 +100,21 @@ li {
 }
 
 .topic2 {
-  background-image: url(images/thirdimage.jpg);
-  background-size: contain;
-  background-color: #012840;
-}
-
-.topic3 {
   background-image: url(images/eightimage.jpg);
 }
 
-.topic4 {
+.topic3 {
   background-image: url(images/nineimage.jpg);
 }
 
-.topic5 {
+.topic4 {
   background-image: url(images/elevenimage.jpg);
 }
 
 .titltopic1,
 .titltopic2,
 .titltopic3,
-.titltopic4,
-.titltopic5 {
+.titltopic4 {
   width: 20%;
   font-size: 25px;
   line-height: 30px;
@@ -144,30 +136,24 @@ li {
 }
 
 .titltopic2,
-.gptzeropage {
-  background-color: #f1467f;
-}
-
-.titltopic3,
 .elctcar {
   background-color: rgb(70, 69, 69);
   color: #16F2F2;
 }
 
-.titltopic4,
+.titltopic3,
 .txtimg {
   background-color: rgb(255, 251, 0);
   color: #012840;
 }
 
-.titltopic5,
+.titltopic4,
 .farm {
   background-color: #03738C;
   color: white;
 }
 
 .gptpage,
-.gptzeropage,
 .elctcar,
 .txtimg,
 .farm {
@@ -181,7 +167,6 @@ li {
 }
 
 .gptpage:hover,
-.gptzeropage:hover,
 .elctcar:hover,
 .txtimg:hover,
 .farm:hover {
@@ -194,10 +179,8 @@ li {
 }
 
 .txtopic1,
-.txtopic2,
-.txtopic3,
-.txtopic4,
-.txtopic5 {
+.txtopic3
+{
   background-color: #03738C;
   color: white;
   padding-top: 10px;
@@ -205,8 +188,7 @@ li {
   text-align: center;
 }
 
-.txtopic2,
-.txtopic4 {
+.txtopic2,.txtopic4  {
   background-color: white;
   color: #012840;
 }
@@ -214,14 +196,12 @@ li {
 .desctopic1,
 .desctopic2,
 .desctopic3,
-.desctopic4,
-.desctopic5 {
+.desctopic4 {
   margin-left: 50px;
   margin-right: 50px;
 }
 
 .gptlink,
-.gptzerolink,
 .txtimglink {
   display: block;
   margin-top: 10px;
@@ -231,10 +211,6 @@ li {
 }
 
 .gptlink {
-  color: #012840;
-}
-
-.gptzerolink {
   color: #012840;
 }
 
@@ -255,10 +231,6 @@ li {
 
 .gptlink:hover {
   color: white;
-}
-
-.gptzerolink:hover {
-  color: #f1467f;
 }
 
 .txtimglink:hover {

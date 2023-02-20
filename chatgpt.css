@@ -1,0 +1,51 @@
+body {
+  background-color: #012840;
+  height: 100%;
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.8em;
+  color: white;
+  font-family: Open Sans;
+  width: 100%;
+}
+a{
+  width: 100px;
+  background-color:  #012840 ;
+  color: white; 
+  height: 80px;
+  width: 80px;
+  margin-left: 50px ;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+a:hover{
+  width: 110px;
+  background-color: white ;
+  color: #012840; 
+  height: 83px;
+  width: 83px;
+  margin-left: 50px ;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: 0.2s;
+}
+.article1,.article2 {
+  height: 350px;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 20px;
+}
+.descarticle1,.descarticle2{
+  margin-left: 20px;
+}
+.article1 {
+  background-image: url(images/image1gpt.jpg);
+}
+.article2{
+  background-image: url(images/image2gpt.jpg);
+}
