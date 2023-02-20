@@ -21,7 +21,7 @@ or even the more industrial uses such as self driving cars and smart Robots<br>
 Use your favorite CLI to clone our website:
 
 ```bash
-git clone https://github.com/Fadi-Haddad-235/parallax-website.git
+<p style="background:black">git clone https://github.com/Fadi-Haddad-235/parallax-website.git</p>
 ```
 
 ## License
